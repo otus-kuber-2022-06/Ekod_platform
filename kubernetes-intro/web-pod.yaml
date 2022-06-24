@@ -8,6 +8,7 @@ spec:
   containers:       
   - name: web          
     image: ekod/web:1.0  
+    imagePullPolicy: Always
   initContainers:
     - name: init-index-hmtl
       image: busybox:1.31.0

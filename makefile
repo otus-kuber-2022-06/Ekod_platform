@@ -19,4 +19,4 @@ delete:
 logs:
 	kubectl logs web
 
-u: delete web dd apply
+u: web dd apply
