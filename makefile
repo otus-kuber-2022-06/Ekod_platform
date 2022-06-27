@@ -20,3 +20,6 @@ logs:
 	kubectl logs web
 
 u: web dd apply
+
+pf:
+	kubectl port-forward --address 0.0.0.0 pod/web 8000:8000
